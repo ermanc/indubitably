@@ -13,10 +13,11 @@
     "validate"
   ],
   "scripts": {
-    "build-continuous": "npm install && npm run prepublish",
+    "build-continuous": "npm cache clean && npm install && npm run lint",
     "lint": "eslint --ext .js src/*",
     "test": "mocha 'test/**/*_test.js' --compilers js:babel/register",
-    "prepublish": "babel src/ -d dist/"
+    "transpile": "babel src/ -d dist/",
+    "prepublish": "npm run transpile"
   },
   "dependencies": {
     "lodash": "^3.10.1",
