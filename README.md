@@ -2,6 +2,8 @@
 
 Simple, functional JSON schema validator that leaves no room for doubt.
 
+[![NPM version](http://img.shields.io/npm/v/indubitably.svg)](https://www.npmjs.org/package/indubitably.svg)
+
 # Example
 
 Given the schema:
