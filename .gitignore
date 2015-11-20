@@ -3,4 +3,4 @@ _SpecRunner.html
 .grunt
 *.log
 .DS_Store
-
+dist
