@@ -37,7 +37,7 @@ function ensure(schema) {
 
   return function (input, continuation) {
     var parsed = continuation(input, schema);
-    var isValid = every(conditions, function (condition) {
+    var isValid = (0, _lodash.every)(conditions, function (condition) {
       return condition(parsed);
     });
 
