@@ -13,7 +13,7 @@
     "validate"
   ],
   "scripts": {
-    "build-continuous": "npm install && npm ",
+    "build-continuous": "npm install && npm run prepublish",
     "lint": "eslint --ext .js src/*",
     "test": "mocha 'test/**/*_test.js' --compilers js:babel/register",
     "prepublish": "babel src/ -d dist/"
