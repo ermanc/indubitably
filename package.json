@@ -1,6 +1,6 @@
 {
   "name": "indubitably",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple, functional JSON data validator",
   "main": "dist/index.js",
   "repository": {
