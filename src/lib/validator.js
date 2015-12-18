@@ -9,6 +9,7 @@ import _, {
   first,
   difference,
   every,
+  last,
   map,
   compact,
   each
